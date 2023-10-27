@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Quize</title>
+</head>
+<body>
+    <header class="site-header">
+    </header>
+    <main class="site-main">
+        <section class="site-main__hero hero">
+            <div class="container">
+                <div class="hero__wrap">
+                    <div class="hero__inner">
+                        <h1 class="hero__wrap-title">Questions in Js</h1>
+                        <strong class="hero__wrap-questions-title">JavaScriptda nechta data type bor</strong>
+                        <form class="hero__form">
+                            <input class="hero__form-inp" type="text" name="user_answer">
+                        </form>
+                        <button class="hero__reload" type="button"></button>
+                    </div>
+                    <table class="hero__table">
+                        <tbody class="hero__table-body">
+                            <template class="hero__template">
+                                <tr class="hero__table-row">
+                                    <td class="hero__table-question-id"></td>
+                                    <td class="hero__table-question"></td>
+                                    <td class="hero__table-answer"></td>
+                                    <td class="hero__table-check"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                        
+                    </table>
+                    <div class="hero__user-result">
+                        <span class="hero__table-user-result-count"></span>
+                        <span class="hero__table-user-result-count hero__table-user-result-count--false
+                        "></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        
+    </footer>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
