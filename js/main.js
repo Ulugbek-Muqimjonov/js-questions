@@ -26,7 +26,7 @@ const users = [
     },
     {
         id:4,
-        text:"Array ga ma'lmot kiritshni qaysi yolida PREFROM yuqoi",
+        text:"Array ga ma'lmot kiritshni qaysi yolida PREFROMS yuqoi",
         answer:"push"
     },
     {
@@ -52,7 +52,7 @@ const users = [
     {
         id:9,
         text:"JavaScript avval qaysi nom bilan yartilgan?",
-        answer:"liveScript"
+        answer:"livescript"
     },
     {
         id:10,
