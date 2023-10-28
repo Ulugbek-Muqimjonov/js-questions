@@ -41,7 +41,7 @@ const users = [
     },
     {
         id:7,
-        text:"Arrayni slice metodi ozini 2 argumentiga nma oldi(deletecount || end || deleteitem)?",
+        text:"Arrayni slice metodi ozini 2-argumentiga nma oldi(deletecount || end || deleteitem)?",
         answer:"end"
     },
     {
